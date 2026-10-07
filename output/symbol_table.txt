@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Index  Symbol Name          Data Type       Scope        Address    Size  
+----------------------------------------------------------------------
+1      a                    int             global       1000       4     
+2      marks                float           global       1004       4     
+3      grade                char            global       1008       1     
+4      salary               double          global       1009       8     
+5      count                int             global       1017       4     
+6      b                    float           global       1021       4     
+7      c                    d               global       1025       4     
+----------------------------------------------------------------------
+Total Symbols: 7

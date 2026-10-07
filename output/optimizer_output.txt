@@ -1,0 +1,33 @@
+========================================
+CODE OPTIMIZER
+========================================
+
+ORIGINAL CODE
+----------------------------------------
+a = 10
+b = 20
+c = a + b
+d = c * 2
+e = d + 0
+f = e * 1
+g = f - 0
+h = g * 0
+
+OPTIMIZATION APPLIED
+----------------------------------------
+1. Constant Folding
+2. Constant Propagation
+3. Algebraic Simplification
+4. Simple Dead Code Elimination
+
+OPTIMIZED CODE
+----------------------------------------
+a = 10
+b = 20
+c = 30
+d = 60
+e = d
+f = e
+g = f
+h = 0
+========================================
