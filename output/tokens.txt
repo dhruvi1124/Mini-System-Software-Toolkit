@@ -2,37 +2,11 @@
 No.    Lexeme                   Token Type              
 ----------------------------------------------------------------------
 1      int                      KEYWORD                 
-2      main                     IDENTIFIER              
-3      (                        PARENTHESIS             
-4      )                        PARENTHESIS             
-5      {                        PARENTHESIS             
-6      int                      KEYWORD                 
-7      a                        IDENTIFIER              
-8      =                        OPERATOR                
-9      10                       INTEGER_CONSTANT        
-10     ;                        SEPARATOR               
-11     float                    KEYWORD                 
-12     b                        IDENTIFIER              
-13     =                        OPERATOR                
-14     20.5                     FLOAT_CONSTANT          
-15     ;                        SEPARATOR               
-16     if                       KEYWORD                 
-17     (                        PARENTHESIS             
-18     a                        IDENTIFIER              
-19     <                        OPERATOR                
-20     b                        IDENTIFIER              
-21     )                        PARENTHESIS             
-22     {                        PARENTHESIS             
-23     a                        IDENTIFIER              
-24     =                        OPERATOR                
-25     a                        IDENTIFIER              
-26     +                        OPERATOR                
-27     1                        INTEGER_CONSTANT        
-28     ;                        SEPARATOR               
-29     }                        PARENTHESIS             
-30     return                   KEYWORD                 
-31     0                        INTEGER_CONSTANT        
-32     ;                        SEPARATOR               
-33     }                        PARENTHESIS             
+2      total                    IDENTIFIER              
+3      =                        OPERATOR                
+4      a                        IDENTIFIER              
+5      +                        OPERATOR                
+6      25                       INTEGER_CONSTANT        
+7      ;                        SEPARATOR               
 ----------------------------------------------------------------------
-Total Tokens Generated: 33
+Total Tokens Generated: 7
